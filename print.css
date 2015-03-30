@@ -24,11 +24,15 @@ nav{
   display:none;
 }
 
-h1 {
+h1, {
  font-size: 20pt;
  letter-spacing: 2pt;
  border-bottom: .02in solid black;
   }
+
+h2{
+  font-size: 20pt;
+}
 
 header address {
       font-size: 10pt;

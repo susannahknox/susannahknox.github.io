@@ -24,14 +24,14 @@ nav{
   display:none;
 }
 
-h1, {
- font-size: 20pt;
+h1 {
+ font-size: 16pt;
  letter-spacing: 2pt;
  border-bottom: .02in solid black;
   }
 
 h2 {
-  font-size: 20pt;
+  font-size: 16pt;
 }
 
 header address {

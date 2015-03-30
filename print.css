@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic);
+
+*{
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: "PT Serif Caption", serif;
+  font-weight: normal;
+}
+
+@page {
+  margin: 1in;
+  }
+
+a {
+  text-decoration: none;
+  }
+
+#container{
+    border: none;
+  }
+
+nav{
+  display:none;
+}
+
+h1 {
+ font-size: 20pt;
+ letter-spacing: 2pt;
+ border-bottom: .02in solid black;
+  }
+
+header address {
+      font-size: 10pt;
+  }
+
+section {
+  border-bottom: .02in solid black;
+}

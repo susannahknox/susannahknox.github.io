@@ -7,7 +7,7 @@
 #container{
   background:white;
 }
-
+/** HOME PAGE**/
 .maincircle {
   position:relative;
   top:75%;
@@ -19,7 +19,7 @@
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:<img src="susannahknox.github.io/portfolio/images/10262123_10152085334131973_8122840531899400138_n.jpg" alt="main picture"> no-repeat;
+	background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/10262123_10152085334131973_8122840531899400138_n.jpg") no-repeat;
   background-position:center;
   background-size:150%;
 }
@@ -177,37 +177,11 @@ h1 a:active {
 }
 
 /** PAGES**/
-/** GRAPHIC SAMPLES **/
 
-#graphichead h1{
-   position: relative;
-   text-align: center;
-   Margin-right:0px;
-   margin-top: 60px;
-   font-family: 'Oswald', sans-serif;
-   font-weight:normal;
-}
-#graphichead h1{
-  font-size:50px;
-}
-#aboutmehead h1{
-   position: relative;
-   text-align: center;
-   Margin-right:0px;
-   margin-top: 60px;
-   font-family: 'Oswald', sans-serif;
-   font-weight:normal;
-}
-#aboutmehead h1{
-  font-size:50px;
-}
-
-#graphicsquares,.square,.square2, .square3, .square4{
+.square,.square2, .square3, .square4{
   background:rgb(111,181,174);
-}
 
-.aboutmehead .square,.aboutmehead .square2, .aboutmehead .square3,.aboutmehead .square4{
-  background:rgb(159,92,120);
+
 }
 
 .square {
@@ -243,268 +217,103 @@ h1 a:active {
   height: 150px;
 }
 
-.view {
-   width: 300px;
-   height: 200px;
-   margin-top:-30px;
-   margin-left:85px;
-   float: left;
-   border: 5px solid #fff;
-   overflow: hidden;
+/**GRAPHIC PAGE**/
+
+#graphichead h1{
    position: relative;
    text-align: center;
+   Margin-right:0px;
+   margin-top: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
 }
 
-.view .mask, .view .content {
-   width: 300px;
-   height: 200px;
-   position: relative;
-   overflow: hidden;
-   top: 0;
-   left: 0;
+#graphichead h1{
+  font-size:50px;
 }
 
-.view img {
-   display: block;
-   position: relative;
+#box1{
+  width:300px;
+  height:200px;
+  float:left;
+  margin-left:110px;
+  margin-top:-10px;
+  background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/graphic%20picture%201.jpg") no-repeat;
+  background-size:80%;
+  background-position:center;
+  border-radius:0px;
+  overflow:hidden;
 }
-
-.view a.info {
-   background:url(../img/link.png) center no-repeat;
-   display: inline-block;
-   text-decoration: none;
-   padding:0;
-   text-indent:-9999px;
-   width:20px;
-   height:20px;
-}
-.view .mask {
-   opacity: 0;
-   overflow:visible;
-   border:100px solid rgba(0,0,0,0.7);
-   box-sizing:border-box;
-   transition: all 0.4s ease-in-out;
-}
-
-.view a.info {
-   position:relative;
-   top:-10px;
-   opacity: 0;
-   transition: opacity 0.5s 0s ease-in-out;
-}
-
-.view:hover .mask {
-   opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
-}
-.view p{
-  font-family: 'Quattrocento', serif;
-  font-size:18px;
-  text-align: center;
-  margin-top: -20px;
-}
-.view:hover a.info {
-   opacity:1;
-   transition-delay: 0.3s;
-}
-
-.viewtwo {
-   width: 300px;
-   height: 200px;
-   margin-top:-28px;
-   margin-right:85px;
+#box2{
+   width:300px;
+   height:200px;
+   margin-top:-10px;
+   margin-right:110px;
    float: right;
-   border: 5px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-}
+   background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/10653379_651508514947749_7274459768100865261_n.jpg") no-repeat;
+   background-size:100%;
+   background-position:center;
+   border-radius:0px;
+   overflow:hidden;
+ }
+#box3{
+    width:300px;
+    height:200px;
+    margin-left:300px;
+    float: left;
+    background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/1372764_10151717150656973_1607332517_n.jpg") no-repeat;
+    background-size:50%;
+    background-position:center;
+    border-radius:0px;
+    overflow:hidden;
+  }
 
-.viewtwo .mask, .viewtwo .content {
-   width: 300px;
-   height: 200px;
-   position: relative;
-   overflow: hidden;
-   top: 0;
-   left: 0;
-}
+#box4{
+     width:300px;
+     height:200px;
+     margin-right:300px;
+     float: right;
+     background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/CDP_logo_main.jpg") no-repeat;
+     background-size:90%;
+     background-position:center;
+     border-radius:0px;
+     overflow:hidden;
+   }
 
-.viewtwo img {
-   display: block;
-   position: relative;
-}
+#overlay{
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;}
 
-.viewtwo a.info {
-   background:url(../img/link.png) center no-repeat;
-   display: inline-block;
-   text-decoration: none;
-   padding:0;
-   text-indent:-9999px;
-   width:20px;
-   height:20px;
-}
-.viewtwo .mask {
-   opacity: 0;
-   overflow:visible;
-   border:100px solid rgba(0,0,0,0.7);
-   box-sizing:border-box;
-   transition: all 0.4s ease-in-out;
-}
-
-.viewtwo a.info {
-   position:relative;
-   top:-10px;
-   opacity: 0;
-   transition: opacity 0.5s 0s ease-in-out;
-}
-
-.viewtwo:hover .mask {
-   opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
-}
-.viewtwo p{
-  font-family: 'Quattrocento', serif;
-  font-size:18px;
-  text-align: center;
-  margin-top: -20px;
-}
-.viewtwo:hover a.info {
+#box1:hover #overlay, #box2:hover #overlay, #box3:hover #overlay, #box4:hover #overlay {
    opacity:1;
-   transition-delay: 0.3s;
 }
 
-.viewthree {
-   width: 300px;
-   height: 200px;
-   margin-bottom:-40px;
-   margin-left:275px;
-   float: left;
-   border: 5px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-}
-
-.viewthree .mask, .viewthree .content {
-   width: 300px;
-   height: 200px;
-   position: relative;
-   overflow: hidden;
-   top: 0;
-   left: 0;
-}
-
-.viewthree img {
-   display: block;
-   position: relative;
-}
-
-.viewthree a.info {
-   background:url(../img/link.png) center no-repeat;
-   display: inline-block;
-   text-decoration: none;
-   padding:0;
-   text-indent:-9999px;
-   width:20px;
-   height:20px;
-}
-.viewthree .mask {
-   opacity: 0;
-   overflow:visible;
-   border:100px solid rgba(0,0,0,0.7);
-   box-sizing:border-box;
-   transition: all 0.4s ease-in-out;
-}
-
-.viewthree a.info {
-   position:relative;
-   top:-10px;
-   opacity: 0;
-   transition: opacity 0.5s 0s ease-in-out;
-}
-
-.viewthree:hover .mask {
-   opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
-}
-.viewthree p{
-  font-family: 'Quattrocento', serif;
-  font-size:18px;
-  text-align: center;
-  margin-top: -20px;
-}
-.viewthree:hover a.info {
-   opacity:1;
-   transition-delay: 0.3s;
-}
-
-.viewfour {
-   width: 300px;
-   height: 200px;
-   margin-bottom:-40px;
-   margin-right:275px;
-   float: right;
-   border: 5px solid #fff;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-}
-
-.viewfour .mask, .viewfour .content {
-   width: 300px;
-   height: 200px;
-   position: relative;
-   overflow: hidden;
-   top: 0;
-   left: 0;
-}
-
-.viewfour img {
-   display: block;
-   position: relative;
-}
-
-.viewtfour a.info {
-   background:url(../img/link.png) center no-repeat;
-   display: inline-block;
-   text-decoration: none;
-   padding:0;
-   text-indent:-9999px;
-   width:20px;
-   height:20px;
-}
-.viewfour .mask {
-   opacity: 0;
-   overflow:visible;
-   border:100px solid rgba(0,0,0,0.7);
-   box-sizing:border-box;
-   transition: all 0.4s ease-in-out;
-}
-
-.viewfour a.info {
-   position:relative;
-   top:-10px;
-   opacity: 0;
-   transition: opacity 0.5s 0s ease-in-out;
-}
-
-.viewfour:hover .mask {
-   opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
-}
-.viewfour p{
-  font-family: 'Quattrocento', serif;
-  font-size:18px;
-  text-align: center;
-  margin-top: -20px;
-}
-.viewfour:hover a.info {
-   opacity:1;
-   transition-delay: 0.3s;
-}
-
+#text {
+ font-family: 'Quattrocento', serif;
+ font-weight:900;
+ color:white;
+ font-size:40px;
+ }
 
 /**ABOUT ME**/
+
+
+#aboutmehead h1{
+   position: relative;
+   text-align: center;
+   Margin-right:0px;
+   margin-top: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
+}
+#aboutmehead h1{
+  font-size:50px;
+}
+
 
 blockquote p {
   font-size:50px;
@@ -526,10 +335,11 @@ blockquote p {
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:url(susannahknox.github.io/images/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
+	background:url(file:///Users/Susannah/susannahknox.github.io/portfolio/images/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
   background-position:center;
   background-size:170%;
 }
+
 article p{
   font-size: 30px;
   font-family: 'Quattrocento', serif;
@@ -548,7 +358,7 @@ article p{
    margin-top: 60px;
    font-family: 'Oswald', sans-serif;
    font-weight:normal;
-  font-size:40px;
+  font-size:53px;
 }
 .email {
   position: relative;
@@ -581,6 +391,7 @@ article p{
 
 
 /**RESUME**/
+
 #resumecontainer{
   background:rgb(159,92,120);
   border: 1px solid black;

@@ -1,0 +1,641 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+#container{
+  background:white;
+}
+
+.maincircle {
+  position:relative;
+  top:75%;
+  left:50%;
+  margin-top:235px;
+  margin-left:-150px;
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	background:url(susannahknox.github.io/images/10262123_10152085334131973_8122840531899400138_n.jpg) no-repeat;
+  background-position:center;
+  background-size:150%;
+}
+
+#home h1{
+   position: relative;
+   text-align: center;
+   Margin: 18px -32px 30px auto;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
+   font-size:40px;
+}
+
+.portfolio{
+  font-family: 'Quattrocento', serif;
+  font-size:18px;
+}
+
+.resume{
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+  line-height:130px;
+  text-align:center;
+  text-decoration:none;
+  background:rgb(159,92,120);
+  float: left;
+  margin-left:150px;
+  margin-top:-565px;
+
+  }
+
+  .resume:hover{
+    color:#ccc;
+    text-decoration:none;
+    background:#333
+  }
+
+.middleone{
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+  line-height:130px;
+  background:rgb(97,53,87);
+  float: left;
+  margin-left:150px;
+  margin-top:-375px;
+
+}
+
+.graphic{
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+  line-height:130px;
+  text-align:center;
+  text-decoration:none;
+  background:rgb(111,181,174);
+  float: left;
+  margin-left:150px;
+  margin-top:-185px;
+
+}
+
+  .graphic:hover{
+    color:#ccc;
+    text-decoration:none;
+    background:#333
+  }
+
+.aboutme{
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+  line-height:130px;
+  text-align:center;
+  text-decoration:none;
+  background:rgb(159,92,120);
+  float:right;
+  margin-right:150px;
+  margin-top:-565px;
+
+}
+
+  .aboutme:hover{
+    color:#ccc;
+    text-decoration:none;
+    background:#333
+  }
+
+
+.middletwo {
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+  background:rgb(97,53,87);
+  float:right;
+  margin-right:150px;
+  margin-top:-375px;
+}
+
+.contact{
+  display:block;
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  color:#fff;
+    line-height:130px;
+    text-align:center;
+    text-decoration:none;
+    background:rgb(111,181,174);
+    float: right;
+    margin-right:150px;
+    margin-top:-185px;
+
+  }
+
+    .contact:hover{
+      color:#ccc;
+      text-decoration:none;
+      background:#333
+    }
+
+h1 a {
+    border:0px;
+}
+h1 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/** PAGES**/
+/** CODE SAMPLES **/
+
+#graphichead h1{
+   position: relative;
+   text-align: center;
+   Margin-right:0px;
+   margin-top: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
+}
+#graphichead h1{
+  font-size:50px;
+}
+#aboutmehead h1{
+   position: relative;
+   text-align: center;
+   Margin-right:0px;
+   margin-top: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
+}
+#aboutmehead h1{
+  font-size:50px;
+}
+
+#graphicsquares,.square,.square2, .square3, .square4{
+  background:rgb(111,181,174);
+}
+
+.aboutmehead .square,.aboutmehead .square2, .aboutmehead .square3,.aboutmehead .square4{
+  background:rgb(159,92,120);
+}
+
+.square {
+  float: left;
+  margin-left:40px;
+  margin-top:-150px;
+  display:table;
+  width: 150px;
+  height: 150px;
+}
+.square2 {
+  float: right;
+  margin-right:40px;
+  margin-top:-150px;
+  display:table;
+  width: 150px;
+  height: 150px;
+}
+.square3 {
+  float: left;
+  margin-left:40px;
+  margin-top:30px;
+  display:table;
+  width: 150px;
+  height: 150px;
+}
+.square4 {
+  float: right;
+  margin-right:40px;
+  margin-top:30px;
+  display:table;
+  width: 150px;
+  height: 150px;
+}
+
+.view {
+   width: 300px;
+   height: 200px;
+   margin-top:-30px;
+   margin-left:85px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.view .mask, .view .content {
+   width: 300px;
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.view img {
+   display: block;
+   position: relative;
+}
+
+.view a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+.view .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.view a.info {
+   position:relative;
+   top:-10px;
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+}
+
+.view:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+.view p{
+  font-family: 'Quattrocento', serif;
+  font-size:18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.view:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
+
+.viewtwo {
+   width: 300px;
+   height: 200px;
+   margin-top:-28px;
+   margin-right:85px;
+   float: right;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.viewtwo .mask, .viewtwo .content {
+   width: 300px;
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.viewtwo img {
+   display: block;
+   position: relative;
+}
+
+.viewtwo a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+.viewtwo .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.viewtwo a.info {
+   position:relative;
+   top:-10px;
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+}
+
+.viewtwo:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+.viewtwo p{
+  font-family: 'Quattrocento', serif;
+  font-size:18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.viewtwo:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
+
+.viewthree {
+   width: 300px;
+   height: 200px;
+   margin-bottom:-40px;
+   margin-left:275px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.viewthree .mask, .viewthree .content {
+   width: 300px;
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.viewthree img {
+   display: block;
+   position: relative;
+}
+
+.viewthree a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+.viewthree .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.viewthree a.info {
+   position:relative;
+   top:-10px;
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+}
+
+.viewthree:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+.viewthree p{
+  font-family: 'Quattrocento', serif;
+  font-size:18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.viewthree:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
+
+.viewfour {
+   width: 300px;
+   height: 200px;
+   margin-bottom:-40px;
+   margin-right:275px;
+   float: right;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.viewfour .mask, .viewfour .content {
+   width: 300px;
+   height: 200px;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.viewfour img {
+   display: block;
+   position: relative;
+}
+
+.viewtfour a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+.viewfour .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.viewfour a.info {
+   position:relative;
+   top:-10px;
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+}
+
+.viewfour:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+.viewfour p{
+  font-family: 'Quattrocento', serif;
+  font-size:18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.viewfour:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
+
+
+/**ABOUT ME**/
+
+blockquote p {
+  font-size:50px;
+  font-family: 'Quattrocento', serif;
+  text-align:center;
+  margin-right:160px;
+  margin-left:160px;
+  margin-top:-37px;
+
+}
+.mypicture {
+  position:relative;
+  top:75%;
+  left:50%;
+  margin-top:50px;
+  margin-left:-150px;
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	background:url(susannahknox.github.io/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
+  background-position:center;
+  background-size:170%;
+}
+article p{
+  font-size: 30px;
+  font-family: 'Quattrocento', serif;
+  margin-top:50px;
+  margin-right:300px;
+  margin-left:300px;
+  text-align:center;
+}
+
+
+/**CONTACT**/
+#contacthead h1{
+   position: relative;
+   text-align: center;
+   Margin-right:0px;
+   margin-top: 60px;
+   font-family: 'Oswald', sans-serif;
+   font-weight:normal;
+  font-size:40px;
+}
+.email {
+  position: relative;
+  text-align: center;
+  Margin-right:0px;
+  margin-top: 26px;
+  font-family: 'Quattrocento', serif;
+  font-weight:normal;
+ font-size:24px;
+}
+.phone {
+  position: relative;
+  text-align: center;
+  Margin-right:0px;
+  margin-top: 28px;
+  font-family: 'Quattrocento', serif;
+  font-weight:normal;
+ font-size:50px;
+}
+
+.address{
+  position: relative;
+  text-align: center;
+  Margin-right:0px;
+  margin-top: -20px;
+  font-family: 'Quattrocento', serif;
+  font-weight:normal;
+ font-size:24px;
+}
+
+
+/**RESUME**/
+#resumecontainer{
+  background:rgb(159,92,120);
+  border: 1px solid black;
+  margin:0 auto;
+  width:960px;
+  padding:0 10px;
+}
+
+
+.resumebody {
+    background: white;
+    margin: 40px;
+    font-family: "PT Serif Caption", serif;
+    font-size: 12pt;
+}
+
+#resumecontainer header {
+    padding-bottom: 10px;
+}
+
+#resumecontainer header h1 {
+  font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+#resumecontainer header address {
+  font-family: 'Quattrocento', serif;
+    font-size: 10pt;
+    float: right;
+}
+
+#resumecontainer section h2 {
+  font-family: 'Quattrocento', serif;
+    font-size: 23pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+#resumecontainer section h3 {
+  font-family: 'Quattrocento', serif;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+#resumecontainer section ul {
+    list-style-type: circle;
+}
+
+#resumecontainer section li {
+    margin-left: 40px;
+}
+
+.title {
+    font-style: italic;
+}

@@ -19,7 +19,7 @@
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:url(susannahknox.github.io/images/10262123_10152085334131973_8122840531899400138_n.jpg) no-repeat;
+	background:<img src="susannahknox.github.io/portfolio/images/10262123_10152085334131973_8122840531899400138_n.jpg" alt="main picture"> no-repeat;
   background-position:center;
   background-size:150%;
 }
@@ -177,7 +177,7 @@ h1 a:active {
 }
 
 /** PAGES**/
-/** CODE SAMPLES **/
+/** GRAPHIC SAMPLES **/
 
 #graphichead h1{
    position: relative;
@@ -526,7 +526,7 @@ blockquote p {
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:url(susannahknox.github.io/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
+	background:url(susannahknox.github.io/images/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
   background-position:center;
   background-size:170%;
 }

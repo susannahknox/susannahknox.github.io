@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+#container{
+  background:rgb(159,92,120);
+  border: 1px solid black;
+  margin:0 auto;
+  width:960px;
+  padding:0 10px;
+}
+
+
+body {
+    background: white;
+    margin: 40px;
+    font-family: "PT Serif Caption", serif;
+    font-size: 12pt;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+header address {
+  font-family: 'Quattrocento', serif;
+    font-size: 10pt;
+    float: right;
+}
+
+section h2 {
+  font-family: 'Quattrocento', serif;
+    font-size: 23pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+section h3 {
+  font-family: 'Quattrocento', serif;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+section ul {
+    list-style-type: circle;
+}
+
+section li {
+    margin-left: 40px;
+}
+
+.title {
+    font-style: italic;
+}
+ a {
+    border:0px;
+}
+a:link {
+    color: black;
+}
+
+ a:visited {
+    color: black;
+}
+
+ a:hover {
+    color: black;
+}
+
+ a:active {
+    color: black;
+}

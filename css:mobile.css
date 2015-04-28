@@ -213,7 +213,7 @@
   ul.photos li {
   	display: inline-block;
   	padding: 10px;
-    margin: -180px 380px 0px 380px;
+    margin: -12% 25% 0 25%;
   	vertical-align: top;
     box-shadow: 0 0 5px #ddd;
   	box-sizing: border-box;

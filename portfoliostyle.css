@@ -188,7 +188,7 @@ h1 a:active {
   float: left;
   margin-left:40px;
   margin-top:-150px;
-  display:table;
+  display:in-line block;
   width: 150px;
   height: 150px;
 }
@@ -196,7 +196,7 @@ h1 a:active {
   float: right;
   margin-right:40px;
   margin-top:-150px;
-  display:table;
+  display:in-line block;
   width: 150px;
   height: 150px;
 }
@@ -204,7 +204,7 @@ h1 a:active {
   float: left;
   margin-left:40px;
   margin-top:30px;
-  display:table;
+  display:in-line block;
   width: 150px;
   height: 150px;
 }
@@ -212,7 +212,7 @@ h1 a:active {
   float: right;
   margin-right:40px;
   margin-top:30px;
-  display:table;
+  display:in-line block;
   width: 150px;
   height: 150px;
 }
@@ -240,7 +240,7 @@ ul.photos{
 ul.photos li {
 	display: inline-block;
 	padding: 10px;
-  margin: -180px 380px 0px 380px;
+  margin: -12% 25% 0 25%;
 	vertical-align: top;
   box-shadow: 0 0 5px #ddd;
 	box-sizing: border-box;

@@ -245,32 +245,76 @@ h1 a:active {
   text-align:center;
 }
 
-ul.photos{
+
+.photos{
 	list-style: none;
 	font-size: 0px;
-}
-ul.photos li {
-	display: inline-block;
-	padding: 10px;
-  margin: -12% 25% 0 25%;
-	vertical-align: top;
-  box-shadow: 0 0 5px #ddd;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+  -webkit-columns: 1 300px;
+  -moz-columns: 1 300px;
+   columns: 1 300px;
 }
 
-ul.photos li img {
-	max-width: 100%;
-	height: auto;
-	margin: 0 0 10px;
+.photos li {
+	display:block;
+	padding: 10px;
+	vertical-align: top;
+  margin-right:40px;
+  margin-top:2.5%;
+}
+
+.photos li img {
+	max-width: 50%;
+	max-height: auto;
+	margin: 0 0 35px 0px ;
   border: 1px solid black;
 }
-ul.photos li h3 {
-	margin: 0 0 200px;
+
+.descriptions #philadone,.descriptions #philadtwo,.descriptions #graphicproject,.descriptions #adgroup {
+  -webkit-columns: 1 300px;
+  -moz-columns: 1 300px;
+   columns: 1 300px;
+   border-bottom: 2px solid white;
+
+}
+.descriptions #philadone {
+  margin-left:53%;
+  margin-top:-157%;
+  max-width:320px;
+}
+
+.descriptions #philadtwo {
+  margin-left:53%;
+  margin-top:43%;
+  max-width:320px;
+}
+.descriptions #graphicproject {
+  margin-left:53%;
+  margin-top:42.5%;
+  max-width:360px;
+}
+.descriptions #adgroup {
+  margin-left:53%;
+  margin-top:43.5%;
+  max-width:250px;
+}
+
+h2.descriptions p {
+	display: block;
+	vertical-align: top;
   font-family: 'Quattrocento', serif;
-  font-weight:900;
-  font-size:30px;
+  font-weight:normal;
+  font-size:38px;
+  color:white;
+}
+
+
+
+/**
+.photos li h2 {
+	margin: 0 0 20px;
+  font-family: 'Quattrocento', serif;
+  font-weight:normal;
+  font-size:24px;
   color:white;
 }
 
@@ -295,21 +339,19 @@ ul.photos li h3 {
 
 
 blockquote p {
-  font-size:50px;
+  font-size:56px;
   font-family: 'Quattrocento', serif;
-  text-align:center;
-  margin-right:160px;
-  margin-left:160px;
-  margin-top:-37px;
+  text-align:left;
+  margin-right:17%;
+  margin-left:49%;
   color:white;
 
 }
+
 .mypicture {
   position:relative;
-  top:75%;
-  left:50%;
-  margin-top:50px;
-  margin-left:-150px;
+  margin-top:-26%;
+  margin-left:20%;
 	width:300px;
 	height:300px;
 	border-radius:150px;
@@ -321,12 +363,12 @@ blockquote p {
 }
 
 article p{
-  font-size: 30px;
+  font-size: 27px;
   font-family: 'Quattrocento', serif;
-  margin-top:50px;
-  margin-right:300px;
-  margin-left:300px;
-  text-align:center;
+  margin-top:4%;
+  margin-left:19%;
+  margin-right:17%;
+  text-align:left;
   color:white;
 }
 
@@ -347,42 +389,35 @@ article p{
   font-size:53px;
   color:white;
 }
-ul {
-    list-style-type: none;
+#describer {
+    list-style: none;
     padding: 0px;
-    margin: 0px;
+    margin-left: 20%;
+    margin-right:61.5%;
+    margin-top: 0%;
     color:white;
+    border-right: 2px solid white;
+    font-family: 'Quattrocento', serif;
+    font-weight: normal;
+    font-size:60px;
+}
+#contactinfo{
+  list-style: none;
+  padding: 0px;
+  margin-left: 41%;
+  margin-top: -30%;
+  margin-right: 20%;
+  color:white;
+  font-family: 'Quattrocento', serif;
+  font-size:43px;
 }
 
-.email {
-  position: relative;
-  text-align: center;
-  Margin-right:0px;
-  margin-top: 26px;
-  font-family: 'Quattrocento', serif;
-  font-weight:normal;
- font-size:24px;
+#describer li{
+  margin:0 0 63px 0;
 }
-.phone {
-  position: relative;
-  text-align: center;
-  Margin-right:0px;
-  margin-top: 29px;
-  font-family: 'Quattrocento', serif;
-  font-weight:normal;
- font-size:50px;
+#contactinfo li{
+  margin:0 0 65px 0;
 }
-
-.address{
-  position: relative;
-  text-align: center;
-  Margin-right:0px;
-  margin-top: 30px;
-  font-family: 'Quattrocento', serif;
-  font-weight:normal;
- font-size:24px;
-}
-
 
 /**RESUME**/
 

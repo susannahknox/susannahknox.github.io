@@ -214,7 +214,15 @@
     border-radius:0px;
     overflow:hidden;
     position:relative;
+
   }
+#box1 .text{
+  font-family: 'Quattrocento', serif;
+  font-weight:900;
+  color:white;
+  font-size:40px;
+  }
+
 
   #box2{
      width:300px;
@@ -226,6 +234,13 @@
      overflow:hidden;
      position: relative;
    }
+   #box2 .text{
+     font-family: 'Quattrocento', serif;
+     font-weight:900;
+     color:white;
+     font-size:40px;
+     }
+
   #box3{
       width:300px;
       height:200px;
@@ -236,6 +251,12 @@
       overflow:hidden;
       position: relative;
     }
+    #box3 .text{
+      font-family: 'Quattrocento', serif;
+      font-weight:900;
+      color:white;
+      font-size:40px;
+      }
 
   #box4{
        width:300px;
@@ -248,7 +269,7 @@
        position:relative;
      }
 
-  .text {
+  #box4 .text {
    font-family: 'Quattrocento', serif;
    font-weight:900;
    color:white;

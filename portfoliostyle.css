@@ -243,6 +243,7 @@ h1 a:active {
   background-position:center;
   border-radius:0px;
   overflow:hidden;
+  position:relative;
 }
 #box2{
    width:300px;
@@ -255,6 +256,7 @@ h1 a:active {
    background-position:center;
    border-radius:0px;
    overflow:hidden;
+   position: relative;
  }
 #box3{
     width:300px;
@@ -266,6 +268,7 @@ h1 a:active {
     background-position:center;
     border-radius:0px;
     overflow:hidden;
+    position: relative;
   }
 
 #box4{
@@ -278,9 +281,10 @@ h1 a:active {
      background-position:center;
      border-radius:0px;
      overflow:hidden;
+     position:relative;
    }
 
-#overlay{
+.overlay{
   background:rgba(0,0,0,.75);
   text-align:center;
   padding:45px 0 66px 0;
@@ -288,11 +292,11 @@ h1 a:active {
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;}
 
-#box1:hover #overlay, #box2:hover #overlay, #box3:hover #overlay, #box4:hover #overlay {
+#box1:hover .overlay, #box2:hover .overlay, #box3:hover .overlay, #box4:hover .overlay {
    opacity:1;
 }
 
-#text {
+.text {
  font-family: 'Quattrocento', serif;
  font-weight:900;
  color:white;
@@ -360,6 +364,12 @@ article p{
    font-weight:normal;
   font-size:53px;
 }
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .email {
   position: relative;
   text-align: center;
@@ -373,7 +383,7 @@ article p{
   position: relative;
   text-align: center;
   Margin-right:0px;
-  margin-top: 28px;
+  margin-top: 29px;
   font-family: 'Quattrocento', serif;
   font-weight:normal;
  font-size:50px;
@@ -383,7 +393,7 @@ article p{
   position: relative;
   text-align: center;
   Margin-right:0px;
-  margin-top: -20px;
+  margin-top: 30px;
   font-family: 'Quattrocento', serif;
   font-weight:normal;
  font-size:24px;

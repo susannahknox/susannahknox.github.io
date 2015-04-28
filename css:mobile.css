@@ -6,9 +6,12 @@
 
 
 @media (max-width:750px) {
-
-  #container{
-    background:white;
+html {
+    background: url("stars.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   /** HOME PAGE**/
   .maincircle {
@@ -135,17 +138,17 @@
       border:0px;
   }
   h1 a:link {
-      color: black;
+      color: white;
       text-decoration: none;
   }
 
   h1 a:visited {
-      color: black;
+      color: white;
       text-decoration: none;
   }
 
   h1 a:active {
-      color: black;
+      color: white;
       text-decoration: none;
   }
 

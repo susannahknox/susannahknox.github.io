@@ -3,10 +3,19 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
-
+/**
 #container{
   background:white;
 }
+**/
+html {
+  background: url("stars.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /** HOME PAGE**/
 .maincircle {
   position:relative;
@@ -31,6 +40,7 @@
    font-family: 'Oswald', sans-serif;
    font-weight:normal;
    font-size:40px;
+
 }
 
 .portfolio{
@@ -57,7 +67,7 @@
   .resume:hover{
     color:#ccc;
     text-decoration:none;
-    background:#333
+    background:#333;
   }
 
 .middleone{
@@ -93,7 +103,7 @@
   .graphic:hover{
     color:#ccc;
     text-decoration:none;
-    background:#333
+    background:#333;
   }
 
 .aboutme{
@@ -115,7 +125,7 @@
   .aboutme:hover{
     color:#ccc;
     text-decoration:none;
-    background:#333
+    background:#333;
   }
 
 
@@ -150,24 +160,24 @@
     .contact:hover{
       color:#ccc;
       text-decoration:none;
-      background:#333
+      background:#333;
     }
 
 h1 a {
     border:0px;
 }
 h1 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 h1 a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 h1 a:hover {
-    color: black;
+    color:white;
     text-decoration: none;
 }
 
@@ -178,13 +188,8 @@ h1 a:active {
 
 /** PAGES**/
 
-.square,.square2, .square3, .square4{
-  background:rgb(111,181,174);
 
-
-}
-
-.square {
+#square1 {
   float: left;
   margin-left:40px;
   margin-top:-150px;
@@ -192,7 +197,8 @@ h1 a:active {
   width: 150px;
   height: 150px;
 }
-.square2 {
+
+#square2 {
   float: right;
   margin-right:40px;
   margin-top:-150px;
@@ -200,7 +206,7 @@ h1 a:active {
   width: 150px;
   height: 150px;
 }
-.square3 {
+#square3 {
   float: left;
   margin-left:40px;
   margin-top:30px;
@@ -208,7 +214,7 @@ h1 a:active {
   width: 150px;
   height: 150px;
 }
-.square4 {
+#square4 {
   float: right;
   margin-right:40px;
   margin-top:30px;
@@ -219,16 +225,22 @@ h1 a:active {
 
 /**GRAPHIC PAGE**/
 
-#graphichead h1{
+
+.graphichead #square1,.graphichead #square2,.graphichead #square3,.graphichead #square4{
+  background:rgb(111,181,174);
+}
+
+.graphichead h1{
    position: relative;
    text-align: center;
    Margin-right:0px;
    margin-top: 60px;
    font-family: 'Oswald', sans-serif;
    font-weight:normal;
+   color:white;
 }
 
-#graphichead h1{
+.graphichead h1{
   font-size:50px;
   text-align:center;
 }
@@ -259,20 +271,25 @@ ul.photos li h3 {
   font-family: 'Quattrocento', serif;
   font-weight:900;
   font-size:30px;
+  color:white;
 }
 
 /**ABOUT ME**/
 
+.aboutmehead #square1,.aboutmehead #square2,.aboutmehead #square3,.aboutmehead #square4{
+  background:rgb(159,92,120);
+}
 
-#aboutmehead h1{
+.aboutmehead h1{
    position: relative;
    text-align: center;
    Margin-right:0px;
    margin-top: 60px;
    font-family: 'Oswald', sans-serif;
    font-weight:normal;
+   color:white;
 }
-#aboutmehead h1{
+.aboutmehead h1{
   font-size:50px;
 }
 
@@ -284,6 +301,7 @@ blockquote p {
   margin-right:160px;
   margin-left:160px;
   margin-top:-37px;
+  color:white;
 
 }
 .mypicture {
@@ -309,11 +327,17 @@ article p{
   margin-right:300px;
   margin-left:300px;
   text-align:center;
+  color:white;
 }
 
 
 /**CONTACT**/
-#contacthead h1{
+
+.contacthead #square1,.contacthead #square2,.contacthead #square3,.contacthead #square4{
+  background:rgb(111,181,174);
+}
+
+.contacthead h1{
    position: relative;
    text-align: center;
    Margin-right:0px;
@@ -321,11 +345,13 @@ article p{
    font-family: 'Oswald', sans-serif;
    font-weight:normal;
   font-size:53px;
+  color:white;
 }
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    color:white;
 }
 
 .email {

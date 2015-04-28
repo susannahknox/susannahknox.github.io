@@ -233,6 +233,7 @@
      border-radius:0px;
      overflow:hidden;
      position: relative;
+     margin-top:40px;
    }
    #box2 .text{
      font-family: 'Quattrocento', serif;
@@ -250,6 +251,7 @@
       border-radius:0px;
       overflow:hidden;
       position: relative;
+      margin-top: 80px;
     }
     #box3 .text{
       font-family: 'Quattrocento', serif;
@@ -267,6 +269,7 @@
        border-radius:0px;
        overflow:hidden;
        position:relative;
+       margin-top:100px;
      }
 
   #box4 .text {

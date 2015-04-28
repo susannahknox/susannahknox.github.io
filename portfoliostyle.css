@@ -230,78 +230,36 @@ h1 a:active {
 
 #graphichead h1{
   font-size:50px;
-}
-
-#box1{
-  width:300px;
-  height:200px;
-  float:left;
-  margin-left:110px;
-  margin-top:-10px;
-  background:url("runwalkskate.jpg") no-repeat;
-  background-size:80%;
-  background-position:center;
-  border-radius:0px;
-  overflow:hidden;
-  position:relative;
-}
-#box2{
-   width:300px;
-   height:200px;
-   margin-top:-10px;
-   margin-right:110px;
-   float: right;
-   background:url("CDPlogo.jpg") no-repeat;
-   background-size:90%;
-   background-position:center;
-   border-radius:0px;
-   overflow:hidden;
-   position: relative;
- }
-#box3{
-    width:300px;
-    height:200px;
-    margin-left:300px;
-    float: left;
-    background:url("Budapest.jpg") no-repeat;
-    background-size:50%;
-    background-position:center;
-    border-radius:0px;
-    overflow:hidden;
-    position: relative;
-  }
-
-#box4{
-     width:300px;
-     height:200px;
-     margin-right:300px;
-     float: right;
-     background:url("Adgroup.jpg") no-repeat;
-     background-size:100%;
-     background-position:center;
-     border-radius:0px;
-     overflow:hidden;
-     position:relative;
-   }
-
-.overlay{
-  background:rgba(0,0,0,.75);
   text-align:center;
-  padding:45px 0 66px 0;
-  opacity:0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;}
-
-#box1:hover .overlay, #box2:hover .overlay, #box3:hover .overlay, #box4:hover .overlay {
-   opacity:1;
 }
 
-.text {
- font-family: 'Quattrocento', serif;
- font-weight:900;
- color:white;
- font-size:40px;
- }
+ul.photos{
+	list-style: none;
+	font-size: 0px;
+}
+ul.photos li {
+	display: inline-block;
+	padding: 10px;
+  margin: -180px 380px 0px 380px;
+	vertical-align: top;
+  box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.photos li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+  border: 1px solid black;
+}
+ul.photos li h3 {
+	margin: 0 0 200px;
+  font-family: 'Quattrocento', serif;
+  font-weight:900;
+  font-size:30px;
+}
 
 /**ABOUT ME**/
 

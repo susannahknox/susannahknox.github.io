@@ -205,79 +205,34 @@
     font-size:50px;
   }
 
-  #box1{
-    width:300px;
-    height:200px;
-    background:url("runwalkskate.jpg") no-repeat;
-    background-size:contain;
-    background-position:center;
-    border-radius:0px;
-    overflow:hidden;
-    position:relative;
 
+  ul.photos{
+  	list-style: none;
+  	font-size: 0px;
   }
-#box1 .text{
-  font-family: 'Quattrocento', serif;
-  font-weight:900;
-  color:white;
-  font-size:40px;
+  ul.photos li {
+  	display: inline-block;
+  	padding: 10px;
+    margin: -180px 380px 0px 380px;
+  	vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+  	box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
   }
 
-
-  #box2{
-     width:300px;
-     height:200px;
-     background:url("CDPlogo.jpg") no-repeat;
-     background-size:contain;
-     background-position:center;
-     border-radius:0px;
-     overflow:hidden;
-     position: relative;
-     margin-top:40px;
-   }
-   #box2 .text{
-     font-family: 'Quattrocento', serif;
-     font-weight:900;
-     color:white;
-     font-size:40px;
-     }
-
-  #box3{
-      width:300px;
-      height:200px;
-      background:url("Budapest.jpg") no-repeat;
-      background-size:contain;
-      background-position:center;
-      border-radius:0px;
-      overflow:hidden;
-      position: relative;
-      margin-top: 80px;
-    }
-    #box3 .text{
-      font-family: 'Quattrocento', serif;
-      font-weight:900;
-      color:white;
-      font-size:40px;
-      }
-
-  #box4{
-       width:300px;
-       height:200px;
-       background:url("Adgroup.jpg") no-repeat;
-       background-size:contain;
-       background-position:center;
-       border-radius:0px;
-       overflow:hidden;
-       position:relative;
-       margin-top:100px;
-     }
-
-  #box4 .text {
-   font-family: 'Quattrocento', serif;
-   font-weight:900;
-   color:white;
-   font-size:40px;
-   }
+  ul.photos li img {
+  	max-width: 100%;
+  	height: auto;
+  	margin: 0 0 10px;
+    border: 1px solid black;
+  }
+  ul.photos li h3 {
+  	margin: 0 0 200px;
+    font-family: 'Quattrocento', serif;
+    font-weight:900;
+    font-size:30px;
+  }
 
   /**ABOUT ME**/
 

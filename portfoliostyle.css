@@ -19,7 +19,7 @@
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:url("https://github.com/susannahknox/susannahknox.github.io//portfolio/images/10262123_10152085334131973_8122840531899400138_n.jpg") no-repeat;
+	background:url("mainpicture.jpg") no-repeat;
   background-position:center;
   background-size:150%;
 }
@@ -238,7 +238,7 @@ h1 a:active {
   float:left;
   margin-left:110px;
   margin-top:-10px;
-  background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/graphic%20picture%201.jpg") no-repeat;
+  background:url("runwalkskate.jpg") no-repeat;
   background-size:80%;
   background-position:center;
   border-radius:0px;
@@ -250,8 +250,8 @@ h1 a:active {
    margin-top:-10px;
    margin-right:110px;
    float: right;
-   background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/10653379_651508514947749_7274459768100865261_n.jpg") no-repeat;
-   background-size:100%;
+   background:url("CDPlogo.jpg") no-repeat;
+   background-size:90%;
    background-position:center;
    border-radius:0px;
    overflow:hidden;
@@ -261,7 +261,7 @@ h1 a:active {
     height:200px;
     margin-left:300px;
     float: left;
-    background:url("http://susannahknox.github.io/portfolio/images/1372764_10151717150656973_1607332517_n.jpg") no-repeat;
+    background:url("Budapest.jpg") no-repeat;
     background-size:50%;
     background-position:center;
     border-radius:0px;
@@ -273,8 +273,8 @@ h1 a:active {
      height:200px;
      margin-right:300px;
      float: right;
-     background:url("file:///Users/Susannah/susannahknox.github.io/portfolio/images/CDP_logo_main.jpg") no-repeat;
-     background-size:90%;
+     background:url("Adgroup.jpg") no-repeat;
+     background-size:100%;
      background-position:center;
      border-radius:0px;
      overflow:hidden;
@@ -335,7 +335,7 @@ blockquote p {
 	border-radius:150px;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
-	background:url(file:///Users/Susannah/susannahknox.github.io/portfolio/images/1508079_10153033633094066_455051931602445718_n.jpg) no-repeat;
+	background:url("aboutmepic.jpg") no-repeat;
   background-position:center;
   background-size:170%;
 }

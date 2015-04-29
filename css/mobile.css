@@ -22,12 +22,12 @@ html {
   /** HOME PAGE**/
 #container {
   background:none;
-  margin:auto;
+  margin:5px 5px 5px 5px;
   width:80%;
   position: relative;
 }
 
-#container .maincircle {
+.maincircle {
     position:absolute;
     top: 0;
     left:0;
@@ -42,7 +42,7 @@ html {
 
   }
 
-#container .portfolio .middleone{
+.middleone{
   postion:absolute;
   bottom: 0;
   left:0;
@@ -56,7 +56,7 @@ html {
 
 }
 
-#container .portfolio .middletwo{
+.middletwo{
   width:300px;
   height:300px;
   border-radius:50%;
@@ -68,7 +68,7 @@ html {
   right:0;
 }
 
-#container .contact{
+.contact{
     border-radius:50%;
     color:#fff;
     line-height:150px;

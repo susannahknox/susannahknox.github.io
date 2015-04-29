@@ -40,10 +40,23 @@
       margin-top:-185px;
 
     }
+    .middleone{
+      display:block;
+      width:130px;
+      height:130px;
+      border-radius:50%;
+      color:#fff;
+      line-height:130px;
+      background:rgb(97,53,87);
+      float: left;
+      margin-left:150px;
+      margin-top:-375px;
+
+    }
 
  #home h1{
        position: absolute;
-       bottom:0;
+       bottom:50px;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:120px;

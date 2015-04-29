@@ -18,10 +18,16 @@ html {
     background-size: cover;
   }
   /** HOME PAGE**/
+#container{
+  width: 640px;
+  height:700px;
+  margin: auto;
+  position:relative;
+}
   .maincircle {
-    position:relative;
-    right:70px;
-    top: 20px;
+    position:absolute;
+    top: 0;
+    left:0;
   	width:300px;
   	height:300px;
   	border-radius:150px;
@@ -30,21 +36,19 @@ html {
   	background:url("images/mainpicture.jpg") no-repeat;
     background-position:center;
     background-size:150%;
-    z-index:1;
+
   }
 
 .middleone{
-  postion:relative;
-  right: 50px;
-  bottom: 20px;
+  postion:absolute;
+  bottom: 0;
+  left:0;
   width:300px;
   height:300px;
   border-radius:50%;
   color:#fff;
   line-height:130px;
   background:rgb(97,53,87);
-  margin:20% 45% 10% 5%;
-  z-index:2;
 
 
 }
@@ -56,10 +60,9 @@ html {
   color:#fff;
   line-height:130px;
   background:rgb(97,53,87);
-  postion:relative;
-  left: 50px;
-  top: 20px
-  z-index:4;
+  postion:abolute;
+  top:0;
+  right:0;
 }
 
 .contact{
@@ -69,17 +72,16 @@ html {
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);
-    postion:relative;
-    left: 50px;
-    bottom: 20px;
-    z-index:3;
+    postion:absolute;
+    bottom:0;
+    right:0;
     width:300px;
     height:300px;
 
     }
 
     #home h1{
-       position: relative;
+       position: absolute;
        Margin-left:50%;
        margin-top:;
        font-family: 'Oswald', sans-serif;

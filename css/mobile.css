@@ -7,24 +7,17 @@
 
 @media only screen and (max-device-width: 480px) {
 
-  html {
-    background: url("images/stars.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
   /** HOME PAGE**/
 #container div {
   margin:auto;
-  width:90%;
+  width:420px;
+  height:420px;
   max-width:460px;
   height:80%;
   position: relative;
   border: 0px solid black;
-  margin:0 auto;
-  padding:10px 0;
+
 
 }
 

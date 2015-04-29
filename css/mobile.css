@@ -16,8 +16,8 @@
     display: inline-block;
     top: 10px;
     left:10px;
-  	width:400px;
-  	height:400px;
+  	width:320px;
+  	height:320px;
   	border-radius:50%;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
@@ -36,9 +36,11 @@
     text-decoration:none;
     background:rgb(111,181,174);
     postion:relative;
-    width:400px;
-    height:400px;
+    width:320px;
+    height:320px;
     right:10px
+    font-size:18px;
+    font-family: 'Quattrocento', serif;
 
   }
   #describer {
@@ -51,7 +53,7 @@
       border-right: 2px solid white;
       font-family: 'Quattrocento', serif;
       font-weight: normal;
-      font-size:60px;
+      font-size:40px;
       position:relative;
   }
   #contactinfo{
@@ -62,7 +64,7 @@
     margin-right: 20%;
     color:white;
     font-family: 'Quattrocento', serif;
-    font-size:43px;
+    font-size:33px;
     position:relative;
   }
 
@@ -73,11 +75,10 @@
     margin:0 0 65px 0;
   }
  #home h1{
-       position: absolute;
-       bottom:0;
+       position:relative;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
-       font-size:40px;
+       font-size:60px;
        display:block;
        text-align:center;
     }

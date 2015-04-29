@@ -7,12 +7,19 @@
 
 @media only screen and (max-device-width: 480px) {
 
+  html {
+    background: url("images/stars.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
   /** HOME PAGE**/
-#container a, #container header{
-  background:url("images/stars.jpg") no-repeat center center fixed;
-  margin:5px 5px;
-  width:9;
+#container div {
+  margin:auto;
+  width:80%;
+  height:80%;
   position: relative;
 }
 
@@ -80,7 +87,7 @@
        font-size:40px;
        display:block;
     }
-    **/
+
 .aboutme,.resume,.graphic{
     display:none;
   }

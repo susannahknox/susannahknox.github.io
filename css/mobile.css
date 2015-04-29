@@ -42,7 +42,7 @@ html {
   background:rgb(97,53,87);
   postion:relative;
   margin-left:60%;
-  margin-top: 10%;
+  margin-top:-90%;
 
 
 }
@@ -78,10 +78,11 @@ html {
     #home h1{
        position: relative;
        Margin-left:50%;
-       margin-top:80%;
+       margin-top:;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:40px;
+       display:none;
     }
   .aboutme,.resume,.graphic{
     display:none;

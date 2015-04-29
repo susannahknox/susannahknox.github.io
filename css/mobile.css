@@ -31,7 +31,8 @@ html {
   height:70%;
   position: relative;
 }
-  .maincircle {
+
+#container .maincircle {
     position:absolute;
     top: 0;
     left:0;
@@ -46,7 +47,7 @@ html {
 
   }
 
-.middleone{
+#container .middleone{
   postion:absolute;
   bottom: 0;
   left:0;
@@ -60,7 +61,7 @@ html {
 
 }
 
-.middletwo{
+#container .middletwo{
   width:300px;
   height:300px;
   border-radius:50%;
@@ -72,7 +73,7 @@ html {
   right:0;
 }
 
-.contact{
+#container .contact{
     border-radius:50%;
     color:#fff;
     line-height:150px;
@@ -87,17 +88,15 @@ html {
 
     }
 
-    #home h1{
+#container #home h1{
        position: absolute;
-       Margin-left:50%;
-       margin-top:;
+       bottom:0;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:40px;
-       display:none;
-       z-index:5;
+       display:block;
     }
-  .aboutme,.resume,.graphic{
+.aboutme,.resume,.graphic{
     display:none;
   }
 }

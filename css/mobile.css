@@ -13,7 +13,7 @@
 
 .maincircle {
     display: inline-block;
-    padding-right:50px
+    padding-right:100px
   	width:300px;
   	height:300px;
   	border-radius:50%;
@@ -44,8 +44,39 @@
        left:50px;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
-       font-size:60px;
+       font-size:80px;
        display:block;
+    }
+    #describer {
+        list-style: none;
+        padding: 0px;
+        margin-left: 23%;
+        margin-right:61.5%;
+        margin-top: 0%;
+        color:white;
+        border-right: 2px solid white;
+        font-family: 'Quattrocento', serif;
+        font-weight: normal;
+        font-size:40px;
+        position:relative;
+    }
+    #contactinfo{
+      list-style: none;
+      padding: 0px;
+      margin-left: 41%;
+      margin-top: -30%;
+      margin-right: 20%;
+      color:white;
+      font-family: 'Quattrocento', serif;
+      font-size:33px;
+      position:relative;
+    }
+
+    #describer li{
+      margin:0 0 63px 0;
+    }
+    #contactinfo li{
+      margin:0 0 65px 0;
     }
 
 .aboutme,.resume,.graphic, .middleone, .middletwo{

@@ -12,8 +12,7 @@
 
 
 .maincircle {
-    display: inline-block;
-    padding-right:00px
+    display:block;
   	width:300px;
   	height:300px;
   	border-radius:50%;
@@ -22,6 +21,10 @@
   	background:url("images/mainpicture.jpg") no-repeat;
     background-position:center;
     background-size:150%;
+    float: left;
+    margin-left:150px;
+    margin-top:-185px;
+
 
   }
 

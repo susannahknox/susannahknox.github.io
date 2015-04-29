@@ -5,20 +5,14 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
 
-@media only screen
-    and (min-device-width : 320pt)
-    and (max-device-width : 375pt) 
-    and (min-device-height: 480pt)
-    and (max-device-height : 667pt)
-    {
+@media only screen and (max-device-width: 480px) {
 
 
   /** HOME PAGE**/
-div#container {
+div #container {
   background:url("images/stars.jpg") no-repeat center center fixed;
   margin:5px 5px;
   width:90%;
-  height:60%;
   position: relative;
 }
 

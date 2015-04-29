@@ -42,7 +42,7 @@ html {
 }
 
 
-  .contact{
+.contact{
     display:block;
     border-radius:50%;
     color:#fff;
@@ -50,7 +50,6 @@ html {
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);
-    float: right;
     position:relative;
     margin-left:30%;
     margin-top:-40%;
@@ -59,4 +58,4 @@ html {
 
     }
 
-  }
+}

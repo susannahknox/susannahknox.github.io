@@ -162,9 +162,7 @@ html {
       text-decoration:none;
       background:#333;
     }
-.portfolio ul li, .portfolio ul li{
-  display:none;
-}
+
 a {
     border:0px;
 }
@@ -402,6 +400,7 @@ article p{
     font-family: 'Quattrocento', serif;
     font-weight: normal;
     font-size:60px;
+    position:relative;
 }
 #contactinfo{
   list-style: none;
@@ -412,6 +411,7 @@ article p{
   color:white;
   font-family: 'Quattrocento', serif;
   font-size:43px;
+  position:relative;
 }
 
 #describer li{

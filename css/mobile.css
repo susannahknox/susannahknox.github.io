@@ -9,7 +9,7 @@
 
 
   /** HOME PAGE**/
-body div#container {
+body#container {
   background:url("images/stars.jpg") no-repeat center center fixed;
   margin:5px 5px;
   width:90%;

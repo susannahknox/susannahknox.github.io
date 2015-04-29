@@ -13,7 +13,7 @@
 
 .maincircle {
     display: inline-block;
-    padding-right:100px
+    padding-right:00px
   	width:300px;
   	height:300px;
   	border-radius:50%;
@@ -26,7 +26,8 @@
   }
 
 .contact{
-  display:inline-block;
+   display:inline-block;
+    padding-left:100px;
     border-radius:50%;
     color:#fff;
     line-height:150px;

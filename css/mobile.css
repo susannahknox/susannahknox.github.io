@@ -21,8 +21,8 @@ html {
   /** HOME PAGE**/
   .maincircle {
     position:relative;
-    margin-left:10%;
-    margin-top:20%;
+    margin-right:10%;
+    margin-top:10%;
   	width:300px;
   	height:300px;
   	border-radius:150px;
@@ -67,8 +67,8 @@ html {
     text-decoration:none;
     background:rgb(111,181,174);
     position:relative;
-    margin-right:25px;
-    margin-bottom:50px;
+    margin-left:10%;
+    margin-bottom:30%;
     width:300px;
     height:300px;
 

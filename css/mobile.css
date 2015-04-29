@@ -19,7 +19,6 @@
 
 .maincircle {
     position:relative;
-    display: inline-block;
   	width:320px;
   	height:320px;
     float:left;
@@ -33,7 +32,6 @@
   }
 
 .contact{
-   display:inline-block;
     border-radius:50%;
     color:#fff;
     line-height:200px;

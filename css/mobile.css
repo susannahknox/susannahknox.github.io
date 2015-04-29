@@ -19,15 +19,17 @@ html {
     background-size: cover;
   }
   body {
-    text-align: center; 
+    text-align: center;
   }
 
   /** HOME PAGE**/
 #container {
-  width: 640px;
-  height:700px;
-  position:relative;
-
+  background:none;
+  border: 0px ;
+  margin:auto;
+  width:75%;
+  height:70%;
+  position: relative;
 }
   .maincircle {
     position:absolute;

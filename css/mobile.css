@@ -15,9 +15,9 @@
     position:relative;
     display: inline-block;
     top: 10px;
-    right:10px;
-  	width:200px;
-  	height:200px;
+    left:10px;
+  	width:400px;
+  	height:400px;
   	border-radius:50%;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
@@ -31,16 +31,47 @@
   display:inline-block;
     border-radius:50%;
     color:#fff;
-    line-height:100px;
+    line-height:200px;
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);
     postion:relative;
-    width:200px;
-    height:200px;
+    width:400px;
+    height:400px;
+    right:10px
 
   }
+  #describer {
+      list-style: none;
+      padding: 0px;
+      margin-left: 20%;
+      margin-right:61.5%;
+      margin-top: 0%;
+      color:white;
+      border-right: 2px solid white;
+      font-family: 'Quattrocento', serif;
+      font-weight: normal;
+      font-size:60px;
+      position:relative;
+  }
+  #contactinfo{
+    list-style: none;
+    padding: 0px;
+    margin-left: 41%;
+    margin-top: -30%;
+    margin-right: 20%;
+    color:white;
+    font-family: 'Quattrocento', serif;
+    font-size:43px;
+    position:relative;
+  }
 
+  #describer li{
+    margin:0 0 63px 0;
+  }
+  #contactinfo li{
+    margin:0 0 65px 0;
+  }
  #home h1{
        position: absolute;
        bottom:0;
@@ -48,6 +79,7 @@
        font-weight:normal;
        font-size:40px;
        display:block;
+       text-align:center;
     }
 
 .aboutme,.resume,.graphic, .middleone, .middletwo{

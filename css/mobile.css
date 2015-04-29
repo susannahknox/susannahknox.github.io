@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+
+@media (max-width:750px) {
+html {
+    background: url("stars.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /** HOME PAGE**/
+  .maincircle {
+    position:relative;
+    margin-left:20%;
+    margin-top:20%;
+  	width:300px;
+  	height:300px;
+  	border-radius:150px;
+  	-webkit-border-radius:50%;
+  	-moz-border-radius:50%;
+  	background:url("mainpicture.jpg") no-repeat;
+    background-position:center;
+    background-size:contain;
+  }
+
+  #home h1{
+     position: relative;
+     text-align: center;
+     Margin-left:20%;
+     margin-top:40%;
+     font-family: 'Oswald', sans-serif;
+     font-weight:normal;
+     font-size:40px;
+  }
+
+
+  .contact{
+    display:block;
+    border-radius:50%;
+    color:#fff;
+    line-height:130px;
+    text-align:center;
+    text-decoration:none;
+    background:rgb(111,181,174);
+    float: right;
+    position:relative;
+    margin-left:20%;
+    margin-top:40%;
+    width:300px;
+    height:300px;
+
+    }
+    .contacthead #square1,.contacthead #square2,.contacthead #square3,.contacthead #square4{
+      background:rgb(111,181,174);
+    }
+
+    .contacthead h1{
+       position: relative;
+       text-align: center;
+       Margin-right:0px;
+       margin-top: 60px;
+       font-family: 'Oswald', sans-serif;
+       font-weight:normal;
+      font-size:53px;
+      color:white;
+    }
+    #describer {
+        list-style: none;
+        padding: 0px;
+        margin-left: 20%;
+        margin-right:61.5%;
+        margin-top: 0%;
+        color:white;
+        border-right: 2px solid white;
+        font-family: 'Quattrocento', serif;
+        font-weight: normal;
+        font-size:60px;
+    }
+    #contactinfo{
+      list-style: none;
+      padding: 0px;
+      margin-left: 41%;
+      margin-top: -30%;
+      margin-right: 20%;
+      color:white;
+      font-family: 'Quattrocento', serif;
+      font-size:43px;
+    }
+
+    #describer li{
+      margin:0 0 63px 0;
+    }
+    #contactinfo li{
+      margin:0 0 65px 0;
+    }
+
+  

@@ -9,10 +9,10 @@
 
 
   /** HOME PAGE**/
-body#container {
+#container a, #container header{
   background:url("images/stars.jpg") no-repeat center center fixed;
   margin:5px 5px;
-  width:90%;
+  width:9;
   position: relative;
 }
 
@@ -22,7 +22,7 @@ body#container {
     left:0;
   	width:200px;
   	height:200px;
-  	border-radius:150px;
+  	border-radius:50%;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
   	background:url("images/mainpicture.jpg") no-repeat;
@@ -39,7 +39,7 @@ body#container {
   height:200px;
   border-radius:50%;
   color:#fff;
-  line-height:130px;
+  line-height:100px;
   background:rgb(97,53,87);
 
 
@@ -50,7 +50,7 @@ body#container {
   height:200px;
   border-radius:50%;
   color:#fff;
-  line-height:130px;
+  line-height:100px;
   background:rgb(97,53,87);
   postion:absolute;
   top:0;
@@ -60,7 +60,7 @@ body#container {
 .contact{
     border-radius:50%;
     color:#fff;
-    line-height:150px;
+    line-height:100px;
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);

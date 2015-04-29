@@ -56,7 +56,7 @@
 
  #home h1{
        position: absolute;
-       bottom:450px;
+       bottom:500px;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:120px;
@@ -65,7 +65,7 @@
     #describer {
         list-style: none;
         padding-right: 5px;
-        margin-left: 23%;
+        margin-left: 22%;
         margin-right:61.5%;
         margin-top: 0%;
         color:white;
@@ -79,7 +79,7 @@
       list-style: none;
       padding: 0px;
       margin-left: 41%;
-      margin-top: -25%;
+      margin-top: -34%;
       margin-right: 20%;
       color:white;
       font-family: 'Quattrocento', serif;

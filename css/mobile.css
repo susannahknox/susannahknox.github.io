@@ -5,8 +5,12 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : landscape), only screen and (device-width: 768px), only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5){
-
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio : 2){
+}
 html {
     background: url("images/stars.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -80,5 +84,3 @@ html {
     height:300px;
 
     }
-
-}

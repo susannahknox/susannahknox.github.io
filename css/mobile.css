@@ -9,13 +9,17 @@
 
 
   /** HOME PAGE**/
-
+    html {
+    background: url("images/stars.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .maincircle {
     position:relative;
     display: inline-block;
-    top: 0px;
-    left:-10px;
   	width:320px;
   	height:320px;
   	border-radius:50%;
@@ -38,7 +42,6 @@
     postion:relative;
     width:320px;
     height:320px;
-    right:-10px;
     font-size:24px;
     font-family: 'Quattrocento', serif;
 
@@ -80,7 +83,7 @@
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:60px;
-       bottom: 20px;
+       bottom: 0px;
        text-align:center;
 
     }

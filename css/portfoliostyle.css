@@ -162,7 +162,9 @@ html {
       text-decoration:none;
       background:#333;
     }
-
+.portfolio ul li, .portfolio ul li{
+  display:none;
+}
 a {
     border:0px;
 }

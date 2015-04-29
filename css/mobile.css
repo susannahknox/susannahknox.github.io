@@ -17,14 +17,14 @@ html {
   /** HOME PAGE**/
   .maincircle {
     position:relative;
-    margin-left:10%;
-    margin-top:10%;
+    margin-left:50%;
+    margin-top:50%;
   	width:300px;
   	height:300px;
   	border-radius:150px;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
-  	background:url("mainpicture.jpg") no-repeat;
+  	background:url("images/mainpicture.jpg") no-repeat;
     background-position:center;
     background-size:contain;
   }
@@ -38,6 +38,9 @@ html {
      font-weight:normal;
      font-size:40px;
   }
+.middletwo,.middleone,.aboutme,.resume,.graphic{
+  display:none;
+}
 
 
   .contact{
@@ -57,17 +60,7 @@ html {
 
     }
 
-    .contacthead h1{
-       position: relative;
-       text-align: center;
-       Margin-right:0px;
-       margin-top: 60px;
-       font-family: 'Oswald', sans-serif;
-       font-weight:normal;
-      font-size:53px;
-      color:white;
-    }
-    #describer {
+  #describer {
         list-style: none;
         padding: 0px;
         margin-left: 20%;
@@ -78,23 +71,23 @@ html {
         font-family: 'Quattrocento', serif;
         font-weight: normal;
         font-size:60px;
-    }
-    #contactinfo{
-      list-style: none;
-      padding: 0px;
-      margin-left: 41%;
-      margin-top: -30%;
-      margin-right: 20%;
-      color:white;
-      font-family: 'Quattrocento', serif;
-      font-size:43px;
+  }
+  #contactinfo{
+    list-style: none;
+    padding: 0px;
+    margin-left: 41%;
+    margin-top: -30%;
+    margin-right: 20%;
+    color:white;
+    font-family: 'Quattrocento', serif;
+    font-size:43px;
     }
 
-    #describer li{
-      margin:0 0 63px 0;
+  #describer li{
+    margin:0 0 63px 0;
     }
-    #contactinfo li{
-      margin:0 0 65px 0;
+  #contactinfo li{
+    margin:0 0 65px 0;
     }
 
   }

@@ -22,6 +22,7 @@
     display: inline-block;
   	width:320px;
   	height:320px;
+    float:left;
   	border-radius:50%;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
@@ -44,6 +45,7 @@
     height:320px;
     font-size:24px;
     font-family: 'Quattrocento', serif;
+    float:right;
 
   }
   #describer {
@@ -82,8 +84,8 @@
        position:relative;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
-       font-size:60px;
-       bottom: 0px;
+       font-size:70px;
+       top: 40px;
        text-align:center;
 
     }

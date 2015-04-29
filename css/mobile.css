@@ -14,8 +14,8 @@
 .maincircle {
     position:relative;
     display: inline-block;
-    top: 10px;
-    left:10px;
+    top: 0px;
+    left:-10px;
   	width:320px;
   	height:320px;
   	border-radius:50%;
@@ -28,7 +28,7 @@
   }
 
 .contact{
-  display:inline-block;
+   display:inline-block;
     border-radius:50%;
     color:#fff;
     line-height:200px;
@@ -38,8 +38,8 @@
     postion:relative;
     width:320px;
     height:320px;
-    right:10px
-    font-size:18px;
+    right:-10px;
+    font-size:24px;
     font-family: 'Quattrocento', serif;
 
   }
@@ -74,12 +74,13 @@
   #contactinfo li{
     margin:0 0 65px 0;
   }
+
  #home h1{
        position:relative;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;
        font-size:60px;
-       display:none;
+       bottom: 20px;
        text-align:center;
 
     }

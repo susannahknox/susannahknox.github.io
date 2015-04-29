@@ -12,9 +12,10 @@
 
 
 .maincircle {
-    position:absolute;
+    position:relative;
+    display: inline-block;
     top: 10px;
-    left:10px;
+    right:10px;
   	width:200px;
   	height:200px;
   	border-radius:50%;
@@ -27,14 +28,14 @@
   }
 
 .contact{
-  display:block;
+  display:inline-block;
     border-radius:50%;
     color:#fff;
     line-height:100px;
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);
-    postion:absolute;
+    postion:relative;
     width:200px;
     height:200px;
 

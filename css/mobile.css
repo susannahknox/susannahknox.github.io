@@ -13,8 +13,8 @@
 
 .maincircle {
     display: inline-block;
-    top: 10px;
-    right:-30px;
+    margin-top: 10px;
+    margin-left:-30px;
   	width:300px;
   	height:300px;
   	border-radius:50%;

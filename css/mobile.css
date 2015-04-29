@@ -24,7 +24,7 @@ html {
   background:none;
   margin:5px 5px 5px 5px;
   width:80%;
-  position: relative;
+  position: fixed;
 }
 
 .maincircle {

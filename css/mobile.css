@@ -23,8 +23,9 @@ html {
 #container {
   background:none;
   margin:5px 5px 5px 5px;
-  width:80%;
-  position: fixed;
+  width:90%;
+  height:60%;
+  position: relative;
 }
 
 .maincircle {

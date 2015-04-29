@@ -8,8 +8,7 @@
 @media only screen
     and (min-device-width : 375px)
     and (max-device-width : 667px)
-    and (orientation : portrait)
-    and (-webkit-min-device-pixel-ratio : 2){
+  {
 
 html {
     background: url("images/stars.jpg") no-repeat center center fixed;
@@ -20,6 +19,7 @@ html {
   }
   /** HOME PAGE**/
   .maincircle {
+    display:inline;
     position:relative;
     margin:10% 45% 20% 0%;
   	width:300px;
@@ -31,8 +31,9 @@ html {
     background-position:center;
     background-size:150%;
   }
-/**
+
 .middleone{
+  display:inline;
   width:300px;
   height:300px;
   border-radius:50%;
@@ -47,6 +48,7 @@ html {
 }
 
 .middletwo{
+  display: inline;
   width:300px;
   height:300px;
   border-radius:50%;
@@ -59,6 +61,7 @@ html {
 }
 
 .contact{
+  display:inline;
     border-radius:50%;
     color:#fff;
     line-height:150px;

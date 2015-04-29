@@ -18,9 +18,14 @@
   /** HOME PAGE**/
 #container div {
   margin:auto;
-  width:80%;
+  width:90%;
+  max-width:460px;
   height:80%;
   position: relative;
+  border: 0px solid black;
+  margin:0 auto;
+  padding:10px 0;
+
 }
 
 .maincircle {
@@ -79,7 +84,7 @@
 
   }
 
-#container #home h1{
+ #home h1{
        position: absolute;
        bottom:0;
        font-family: 'Oswald', sans-serif;

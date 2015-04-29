@@ -21,10 +21,6 @@
   	background:url("images/mainpicture.jpg") no-repeat;
     background-position:center;
     background-size:150%;
-    float: left;
-    margin-left:150px;
-    margin-top:-185px;
-
 
   }
 
@@ -45,8 +41,8 @@
     }
 
  #home h1{
-       position: absolute;
-       bottom:0;
+       position: fixed;
+       bottom:20px;
        left:50px;
        font-family: 'Oswald', sans-serif;
        font-weight:normal;

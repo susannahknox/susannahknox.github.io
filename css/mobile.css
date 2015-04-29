@@ -7,21 +7,12 @@
 
 @media only screen
     and (min-device-width : 375px)
-    and (max-device-width : 667px)
-  {
+    and (max-device-width : 667px) {
 
-html {
-
-    background: url("images/stars.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
   /** HOME PAGE**/
 #container {
-  background:none;
+  background:url("images/stars.jpg") no-repeat center center fixed;
   margin:5px 5px 5px 5px;
   width:90%;
   height:60%;

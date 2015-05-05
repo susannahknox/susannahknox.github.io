@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
 
-@media  (max-device-width: 320px) {
+@media  (max-device-width: 375px) {
 
 
   /** HOME PAGE**/
@@ -32,7 +32,7 @@
   }
 
   #container{
-      width:990px;
+      width:320px;
       margin:auto;
       border: 2px solid transparent;
       margin-top:2px;
@@ -43,13 +43,11 @@
   }
   /** HOME PAGE**/
   .maincircle {
-    position:relative;
-    top:75%;
-    left:50%;
-    margin-top:235px;
-    margin-left:-150px;
-  	width:300px;
-  	height:300px;
+    position:absolute;
+    top:31%;
+    left:15%;
+  	width:250px;
+  	height:250px;
   	border-radius:150px;
   	-webkit-border-radius:50%;
   	-moz-border-radius:50%;
@@ -59,134 +57,69 @@
   }
 
   #home h1{
-     position: relative;
-     text-align: center;
-     Margin: 18px -32px 30px auto;
+     position: fixed;
+     transform: rotate(270deg);
+	   transform-origin: left top 0;
+     top:55%;
+     left:0;
      font-family: 'Oswald', sans-serif;
      font-weight:normal;
-     font-size:50px;
+     font-size:100px;
 
   }
 
   .portfolio{
     font-family: 'Quattrocento', serif;
-    font-size:18px;
+    font-size:30px;
   }
 
   .resume{
+    display:none;
+  }
+
+.middleone{
     display:block;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
-    background:rgb(159,92,120);
-    left:15px;
-    top:5%;
     position:absolute;
-    }
-
-  .resume:hover{
-      color:#ccc;
-      text-decoration:none;
-      background:#333;
-    }
-
-  .middleone{
-    display:block;
-    width:130px;
-    height:130px;
+    top:20%;
+    left:-30%;
+    width:220px;
+    height:220px;
     border-radius:50%;
     color:#fff;
-    line-height:130px;
     background:rgb(97,53,87);
-    float: left;
-    left:15px;
-    top:40%;
-    position:absolute;
 
   }
 
   .graphic{
-    display:block;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
-    background:rgb(111,181,174);
-    position:absolute;
-    left:15px;
-    top:75%;
-
-  }
-
-    .graphic:hover{
-      color:#ccc;
-      text-decoration:none;
-      background:#333;
+    display:none;
     }
 
   .aboutme{
-    display:block;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
-    background:rgb(159,92,120);
-    right:15px;
-    top:5%;
-    position:absolute;
+    display:none;
 
-  }
-
-    .aboutme:hover{
-      color:#ccc;
-      text-decoration:none;
-      background:#333;
     }
 
 
   .middletwo {
-    display:block;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    color:#fff;
-    background:rgb(97,53,87);
-    right:15px;
-    top:40%;
-    position:absolute;
+    display:none;
   }
 
   .contact{
     display:block;
-    width:130px;
-    height:130px;
+    position:absolute;
+    top:125%;
+    left:-30%;
+    width:220px;
+    height:220px;
     border-radius:50%;
     color:#fff;
-    line-height:130px;
+    line-height:220px;
     text-align:center;
     text-decoration:none;
     background:rgb(111,181,174);
-    position:absolute;
-    right:15px;
-    top:75%;
 
     }
 
-      .contact:hover{
-        color:#ccc;
-        text-decoration:none;
-        background:#333;
-      }
 
   a {
       border:0px;
@@ -211,211 +144,45 @@
       text-decoration: none;
   }
 
-  /** PAGES**/
 
 
   #circle1 {
-    margin-left:0px;
-    margin-top:-150px;
+    left:20px;
+    top:200px;
     display:block;
-    width:130px;
-    height:130px;
+    width:150px;
+    height:150px;
     border-radius:50%;
     color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
     background:rgb(159,92,120);
-    position:absolute;
+    position:fixed;
   }
 
   #circle2 {
-    right:0;
-    margin-top:-150px;
-    margin-left:0px;
+    left:20px;
+    top:500px;
     display:block;
-    width:130px;
-    height:130px;
+    width:150px;
+    height:150px;
     border-radius:50%;
     color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
     background:rgb(159,92,120);
-    position:absolute;
+    position:fixed;
   }
   #circle3 {
-    margin-left:0px;
-    margin-top:30px;
+    left:20px;
+    top:640px;
     display:block;
-    width:130px;
-    height:130px;
+    width:150px;
+    height:150px;
     border-radius:50%;
     color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
     background:rgb(159,92,120);
-    position:absolute;
+    position:fixed;
   }
-  #circle4 {
-    right:0;
-    margin-top:30px;
-    display:block;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    color:#fff;
-    line-height:130px;
-    text-align:center;
-    text-decoration:none;
-    background:rgb(159,92,120);
-    position:absolute;
-  }
-
-  /**GRAPHIC PAGE**/
-
-
-  .graphichead #circle1,.graphichead #circle2,.graphichead #circle3,.graphichead #circle4{
-    background:rgb(111,181,174);
-  }
-
-  .graphichead h1{
-     text-align: center;
-     font-family: 'Oswald', sans-serif;
-     font-weight:normal;
-     font-size:60px;
-     color:white;
-  }
-
-
-  .photos{
-    float: right;
-    padding:8px;
-    margin: 0px;
-    position:absolute;
-    right:165px;
-    border: 2px solid #cccccc;
-    font-size: 1em;
-    color:white;
-    font-family: 'Quattrocento', serif;
-
-  }
-  .photos2{
-    position:absolute;
-    float: left;
-    padding:8px;
-    margin: 0px;
-    left:160px;
-    border: 2px solid #cccccc;
-    color:white;
-    font-size: 1em;
-    font-family: 'Quattrocento', serif;
-
-  }
-
-  .photos3{
-    float: right;
-    padding:8px;
-    margin: 0px;
-    position:absolute;
-    right:162px;
-    top:650px;
-    border: 2px solid #cccccc;
-    font-size: 1em;
-    color:white;
-    font-family: 'Quattrocento', serif;
-    margin-bottom:20px;
-
-  }
-  .photos4{
-    position:absolute;
-    float: left;
-    padding:8px;
-    margin: 0px;
-    left:160px;
-    top:650px;
-    border: 2px solid #cccccc;
-    color:white;
-    font-size: 1em;
-    font-family: 'Quattrocento', serif;
-
-
-  }
-
-  img{
-    width:300px;
-    height:auto;
-  }
-
-
-
-
-  /**
-  .photos li h2 {
-  	margin: 0 0 20px;
-    font-family: 'Quattrocento', serif;
-    font-weight:normal;
-    font-size:24px;
-    color:white;
-  }
-
-  /**ABOUT ME**/
-
-  .aboutmehead #square1,.aboutmehead #square2,.aboutmehead #square3,.aboutmehead #square4{
-    background:rgb(159,92,120);
-  }
-
-  .aboutmehead h1{
-     text-align: center;
-     font-family: 'Oswald', sans-serif;
-     font-weight:normal;
-     font-size:60px;
-     color:white;
-  }
-
-
-  blockquote p {
-    font-size:65px;
-    font-family: 'Quattrocento', serif;
-    position:absolute;
-    right:130px;
-    top:125px;
-    display:block;
-    width:340px;
-    color:white;
-    display:block;
-
-  }
-
-  .mypicture {
-    position:absolute;
-    float:left;
-    left:170px;
-    top:180px;
-  	width:280px;
-  	height:280px;
-  	border-radius:140px;
-  	-webkit-border-radius:50%;
-  	-moz-border-radius:50%;
-  	background:url("images/aboutmepic.jpg") no-repeat;
-    background-position:center;
-    background-size:170%;
-  }
-
-  article p{
-    font-size: 27px;
-    font-family: 'Quattrocento', serif;
-    top:480px;
-    text-align:left;
-    left:175px;
-    margin-bottom:50px;
-    color:white;
-    position:absolute;
-    width:30%;
-    display:block;
-  }
-
+#circle4{
+  display:none;
+}
 
   /**CONTACT**/
   .contacthead #circle1,.contacthead #circle2,.contacthead #circle3,.contacthead #circle4{
@@ -426,8 +193,9 @@
      text-align: center;
      font-family: 'Oswald', sans-serif;
      font-weight:normal;
-     font-size:60px;
+     font-size:80px;
      color:white;
+     position:fixed;
   }
   #contactbox{
     width:600px;
@@ -435,7 +203,9 @@
     left:200px;
     right:200px;
     border: none;
-    position:absolute;
+    position:fixed;
+    top:250px;
+    left:250px;
   }
   #describer {
       list-style: none;

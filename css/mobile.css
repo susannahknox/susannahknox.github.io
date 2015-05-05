@@ -59,6 +59,8 @@
   #home h1{
      position: fixed;
      transform: rotate(90deg);
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
      left:0;
      bottom:auto;
      top:auto;
